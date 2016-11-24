@@ -3,7 +3,7 @@
 <head>
     <link rel="icon" type="img/png" sizes="16x16" href="icon.png">
     <meta http-equiv="Content-Type" content="text/html charset=windows-1252">
-	<title>Winkl - Fashion and Beauty Tips on Demand for FREE.</title>
+	<title>Winkl - Fashion & Beauty Tips on Demand for FREE.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="">
 	<!--Bootstrap-->
@@ -43,20 +43,20 @@
 			<div class="nav-items col-md-9 col-lg-9 col-sm-9">
 				<div class="navbar pull-right">
 					<div class="navbar-inner">
-						<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</a>
+						</button> 
 
-						<div class="nav">
-							<ul class="nav">
+						<div id="collapsable-nav" class="collapse navbar-collapse" >
+							<ul id="nav-list" class="nav navbar-nav navbar-right">
 								<li>
 									<a href="#">Home</a>
 								</li>
 
 								<li>
-									<a href="#">Feed</a>
+									<a href="#feed">Feed</a>
 								</li>
 
 								<li>
@@ -85,6 +85,70 @@
 		
 	</div>
 </div> 
+
+
+<!--Home page content-->
+
+<div id="home" class="container">
+	<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<div class="content-in">
+					<h1 style="font-size: 30px; line-height: 40px; font-family: 'Source Sans Pro', sans-serif;"><strong>Fashion  Beauty Tips on Demand for FREE.</strong></h1>
+                      <p class="lead" style="font-family: 'Source Sans Pro', sans-serif;">Get latest fashion & beauty tips from a great community. Ask questions anonymously. Get specific answers to your query and know the latest fashion & beauty trends. </p>
+                      <a href="http://bit.ly/2edxmtc" target="_blank" align="center" id="googleplay"><img src="/img/googleplay.png" style="height: 3rem;" alt="get your questions answered on winkl"></a>&nbsp;&nbsp;
+                      <a href="http://bit.ly/2dY49lC" target="_blank" align="center" id="messenger"><img src="/img/chatwith.jpg" style="height: 3rem;" alt="get your questions answered on messenger"></a>
+				</div>
+				
+			</div>
+
+
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<img src="img/home3.png" style="height: 35rem; padding-left: 15%;">
+			</div>
+	
+
+	</div>
+
+	
+</div>
+
+
+
+
+<!--Feed -->
+
+<div id="feed">
+
+<div id="scroll-down-div" style="width: 100%; text-align: center; background: #e24343; height: 6rem; color: white;">
+<br>
+<img src="/img/down-arrow.svg" style="height: 2rem;"><br>
+<strong>FEED</strong>
+
+<div style="padding-top: 0.5rem; padding-bottom: 0.5em;">&nbsp;</div>
+
+<div id="scroll-to-div">&nbsp;</div>
+
+<div class="container" id="cardcon">
+      <!--QA cards-->
+	<div class="col-lg-8 col-md-8 col-sm-8" id="qacon">
+		
+	</div>
+    
+    <!--Invite cards-->
+
+    <div class="col-lg-4 col-md-4 col-sm-4" id="invitecon">
+    	
+    </div>
+
+
+	
+
+</div>
+
+
+
+
+</div>
 
 </body>
 </html>
