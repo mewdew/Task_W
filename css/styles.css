@@ -1,6 +1,8 @@
 *{
 	box-sizing: border-box;
 	margin: 0px;
+	color: black;
+
 }
 
 
@@ -19,5 +21,94 @@ li {
 a {
     display: block;
     padding: 8px;
+}
+
+
+h1{font-size:50px; font-weight: 200; color: #555; margin-bottom: 20px;}
+h2{font-size: 30px; font-weight: 300; color:#444; margin: 30px 0}
+h3{font-size: 20px; font-weight: 400; margin: 20px 0;}
+h4{font-size:18px; font-weight: 400}
+
+/* Home */
+
+.content-in {
+	  background-color: transparent;
+      position: relative;
+      max-width: 100%;
+      padding: 0 20px;
+      margin-top:20%;
+}
+
+
+
+
+/*Cards */
+
+
+.card {
+    box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+    padding: 2px 16px;
+
+}
+
+.card-row {
+	width: 100%;
+	margin-left: 2rem; 
+	margin-right: 2rem;
+}
+
+.block {
+	width: 100%;
+	text-align: left;
+}
+
+.cardheader {
+	/*padding-top: 2px;
+	pad*/
+}
+
+/* Media queries */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}  
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+
+
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  }
 
 }
