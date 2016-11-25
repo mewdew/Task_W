@@ -1,0 +1,27 @@
+{
+  "name": "winkl",
+  "version": "1.0.0",
+  "description": "Winkl Task",
+  "dependencies": {
+    "mysql": "^2.12.0"
+  },
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mewdew/Task_W.git"
+  },
+  "keywords": [
+    "winkl"
+  ],
+  "author": "Shivangi Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mewdew/Task_W/issues"
+  },
+  "homepage": "https://github.com/mewdew/Task_W#readme"
+
+}
+
