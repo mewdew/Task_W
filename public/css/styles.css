@@ -132,11 +132,15 @@ h4{font-size:18px; font-weight: 400}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+li a {
+    display: block;
+    clear: both;	
+	}	
+}
 	
 
 
 
-}
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
